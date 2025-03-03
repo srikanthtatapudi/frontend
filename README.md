@@ -1,6 +1,6 @@
-# Codsoft
+#Front End Projects
 
 ### Projects:
 
-- [Calculator](https://srikanthtatapudi.github.io/Codsoft-/calc.html)
-- [Landing Page](https://srikanthtatapudi.github.io/Codsoft-/land.html)
+- [Calculator](https://srikanthtatapudi.github.io/frontend/calc.html)
+- [Landing Page](https://srikanthtatapudi.github.io/frontend/land.html)
