@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WatchTex - Timeless Elegance</title>
+  <link rel="stylesheet" href="site.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">WatchTex</div>
+    <nav>
+      <ul>
+        <li><a href="#home" class="nav-btn">Home</a></li>
+        <li><a href="#shop" class="nav-btn">Shop</a></li>
+        <li><a href="#about" class="nav-btn">About</a></li>
+        <li><a href="#contact" class="nav-btn">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="cart">
+      <span>🛒</span>
+      <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Set Your Style with WatchTex</h1>
+    <p>Discover timeless watches that redefine elegance.</p>
+    <a href="#shop" class="btn">Explore Collection</a>
+  </section>
+
+  <section id="shop" class="products">
+    <h2>Featured Watches</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="watch1.jpg" alt="Classic Watch">
+        <h3>Classic Watch</h3>
+        <p>$199.99</p>
+        <button class="add-to-cart" data-id="1">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="watch2.jpg" alt="Modern Watch">
+        <h3>Modern Watch</h3>
+        <p>$249.99</p>
+        <button class="add-to-cart" data-id="2">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="watch3.jpg" alt="Luxury Watch">
+        <h3>Luxury Watch</h3>
+        <p>$499.99</p>
+        <button class="add-to-cart" data-id="3">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About WatchTex</h2>
+    <div class="about-content">
+      <p>
+        At WatchTex, we believe in the timeless elegance of finely crafted watches. 
+        Our mission is to bring you the perfect blend of style, precision, and innovation. 
+        Each watch is designed to reflect your unique personality and elevate your everyday look.
+      </p>
+      <p>
+        Founded in 2023, WatchTex has quickly become a symbol of sophistication and quality. 
+        We source the finest materials and work with master craftsmen to create watches that 
+        stand the test of time.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-details">
+      <p>📞 <strong>Phone:</strong> +1 (123) 456-7890</p>
+      <p>📧 <strong>Email:</strong> info@watchtex.com</p>
+      <p>📍 <strong>Address:</strong> 123 Luxury Lane, Style City, SC 12345</p>
+    </div>
+    <div class="contact-form">
+      <h3>Send Us a Message</h3>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 WatchTex. All rights reserved.</p>
+  </footer>
+  
+  <script src="site.js"></script>
+</body>
+</html>
